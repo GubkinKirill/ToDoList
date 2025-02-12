@@ -1,5 +1,5 @@
 from sqlalchemy.orm import Session
-import models, schemas
+from app import models, schemas
 
 # Получение задач по ID
 def get_task(db: Session, task_id: int):
